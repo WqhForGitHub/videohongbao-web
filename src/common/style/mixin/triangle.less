@@ -1,0 +1,45 @@
+.triangle (@size:10px, @color:#000, @_) {
+  position: relative;
+  &:after{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+  }
+}
+.triangle (@size,@color,up) {
+  &:after{
+    //三角向上
+    content: '';
+    border-bottom: @size solid @color;
+    border-right: @size solid transparent;
+    border-left: @size solid transparent;
+  }
+}
+.triangle (@size,@color,down) {
+  &:after{
+    //三角向下
+    content: '';
+    border-top: @size solid @color;
+    border-right: @size solid transparent;
+    border-left: @size solid transparent;
+  }
+}
+.triangle (@size,@color,left) {
+  &:after {
+    //三角向左
+    content: '';
+    border-right: @size solid @color;
+    border-top: @size solid transparent;
+    border-bottom: @size solid transparent;
+  }
+}
+.triangle (@size,@color,right) {
+  &:after {
+    //三角向右
+    content: '';
+    border-left: @size solid @color;
+    border-top: @size solid transparent;
+    border-bottom: @size solid transparent;
+  }
+}

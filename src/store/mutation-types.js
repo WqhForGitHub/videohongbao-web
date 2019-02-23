@@ -1,0 +1,3 @@
+export const SET_USER_INFO = 'SET_USER_INFO'
+export const SET_QN_TOKEN = 'SET_QN_TOKEN'
+export const SET_UPLOAD_DOMIAN = 'SET_UPLOAD_DOMIAN'
