@@ -1,0 +1,278 @@
+{
+	"pages": [
+		{
+			"path": "src/pages/login/main",
+			"style":{
+					"navigationBarTitleText": "授权登录",
+					"navigationBarBackgroundColor":" #121138",
+					"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "src/pages/upload-pic/main",
+			"style": {
+					"usingComponents":{
+					"van-popup":"/static/dist/popup/index"
+				}
+			}
+		},
+		
+		{
+			"path": "src/pages/my/sponsored-links/main",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#2c273d"
+			}
+		},
+		{
+			"path": "src/pages/my/promotion-record/main",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "src/pages/upload-pic/muban/main"
+		},
+		
+		{
+			"path": "src/pages/upload-pic/video/main"
+		},
+		{
+			"path": "src/pages/upload-pic/More/main",
+			"style" : {
+					"navigationBarTitleText": "模板"
+			}
+		},
+		{
+			"path": "src/pages/register/main",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor":" #121138",
+				"navigationBarTextStyle": "white"
+			}
+		},
+			
+		{
+			"path": "src/pages/index/main",
+			"style": {
+					"navigationBarTitleText":" 首页",
+					"enablePullDownRefresh": true,
+					"onPullDownRefresh": true,
+					"onReachBottom": true,
+					"usingComponents":{
+				}
+			}
+		},
+		
+		{
+			"path": "src/pages/about/main",
+			"style": {
+				
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "red"
+			}
+		},
+		{
+			"path": "src/pages/my/withdraw/main"
+		},
+		{
+			"path": "src/pages/my/main",
+			"style": {
+			  "navigationBarTitleText":"个人中心"	
+			}
+		},
+		{
+			"path": "src/pages/review-video/main",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": true,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "src/pages/my/join-proxy/main",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "red"
+			}
+		},
+		{
+			"path": "src/pages/my/attention/main",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": true,
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "src/pages/my/withdrawals-record/main",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": true
+			}
+		},
+		{
+			"path": "src/pages/my/recording/main",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": true
+			}
+		},
+		
+		{
+			"path": "src/pages/my/renzheng/main",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": true
+			}
+		},
+		{
+			"path": "src/pages/details-video/main",
+			"style": {
+				"navigationBarBackgroundColor":"#2c273d",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "src/pages/videoredpack-grab/main"
+		},
+		{
+			"path": "src/pages/hairhongbao/main"
+		},
+		{
+			"path": "src/pages/false-home/main",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"onPullDownRefresh": true,
+				"onReachBottom": true
+			}
+		},
+		{
+			"path": "src/pages/details/main"
+		},
+		{
+			"path": "src/pages/deltevideo/main"
+		},
+		{
+			"path": "src/pages/delectpic/main",
+			 "usingComponents":{
+			 "van-checkbox":"/static/dist/checkbox/index",
+			 "van-checkbox-group":"/static/dist/checkbox-group/index"
+			 }
+		},
+		{
+			"path": "src/pages/count/main"
+		},
+		{
+			"path": "src/pages/assign-red-pack/main",
+			"style": {
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": true
+			}
+		},
+		{
+			"path": "src/pages/Album/main"
+		},
+		{
+			"path": "src/pages/addshopp/main"
+		},
+		{
+    	"path": "src/pages/report-res/main"
+		},
+		{
+			"path": "src/pages/reward/main"
+		},
+		{
+			"path": "src/pages/sharingPage/main",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#461297"
+			}
+		},
+		{
+			"path": "src/pages/shopping/main",
+			"style": {
+				"onReachBottomDistance": 50
+			}
+		},
+		{
+			"path": "src/pages/text/main"
+		},
+		{
+			"path": "src/pages/my/promotion-registration/main",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "src/pages/home/main",
+			"style":{
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "深圳优视",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "src/pages/JGIM/main",
+			"style":{
+					"navigationBarTitleText": "首页",
+					"enablePullDownRefresh": true,
+					"onPullDownRefresh": true,
+					"onReachBottom": true,
+					"usingComponents":{
+				}
+			}
+		},
+		{
+			"path": "src/pages/logins/main",
+			"style":{
+					"navigationBarTitleText": "授权登录",
+					"navigationBarBackgroundColor":" #121138",
+					"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "src/pages/personal-video/main",
+			"style":{
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": true
+			}
+		},
+		{
+			"path": "src/pages/report-reason/main",
+			"style":{
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "src/pages/report-res/main"
+		}
+		
+	],
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "white",
+		"navigationBarTitleText": "时光优视",
+		"navigationBarTextStyle": "black",
+		"enablePullDownRefresh": false
+	},
+	"tabBar": {
+			"list": [{
+			  "pagePath": "pages/index/main",
+			  "text": "首页"
+			},{
+			  "pagePath": "pages/upload-pic/main",
+			  "text": "上传"
+			},{
+			  "pagePath": "pages/my/main",
+			  "text": "个人中心"
+			}]
+	}
+}
